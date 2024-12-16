@@ -96,7 +96,7 @@ module.exports = {
     GND: {type: 'net', value: 'GND'},
     AGND: {type: 'net', value: 'AGND'},
     SWCLK: {type: 'net', value: 'SWCLK'},
-    SWDIO: 'SWDIO'
+    SWDIO: {type: 'net', value: 'SWDIO'}
   },
   body: p => {
     function standard(layer) {
